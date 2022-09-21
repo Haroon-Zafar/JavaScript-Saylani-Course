@@ -95,3 +95,5 @@ var num = 5;
 
 alert(num --);
 // 6
+
+alert(num);
