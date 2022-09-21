@@ -82,5 +82,5 @@
 
 
 var num = 5; 
-num++;
-alert(num);
+
+alert(++num);
