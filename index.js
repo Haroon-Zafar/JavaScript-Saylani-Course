@@ -89,11 +89,20 @@
 // alert(num);
 // >> 6
 
+// var num = 5;
+
+// ++num ; 
+
+// alert(num --);
+// // 6
+
+// alert(num);
+
+
 var num = 5;
 
-++num ; 
+++ num ; 
 
-alert(num --);
-// 6
+alert(num -- ); // 6
 
-alert(num);
+alert(++num); //6
