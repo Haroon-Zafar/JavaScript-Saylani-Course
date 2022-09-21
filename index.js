@@ -28,12 +28,12 @@
 
 // alert(num);
 
-var nationality; 
+// var nationality; 
 
-nationality = "Pakistani";
+// nationality = "Pakistani";
 
 
-var booleanVariable = false;
+// var booleanVariable = false;
 
 
 
@@ -41,8 +41,8 @@ var booleanVariable = false;
 // Another Way of Declaring Variable : 
 // Declaring the name of the variable first then after that declaring the value.
 
-
-alert(nationality, booleanVariable);
+// 
+// alert(nationality, booleanVariable);
 
 
 
@@ -52,12 +52,19 @@ alert(nationality, booleanVariable);
 
 // USE UNDERSCORES
 
-var hello_world = "abc";
+// var hello_world = "abc";
 
 //  CAMEL CASE 
 
-var helloWorld = "abc";
+// var helloWorld = "abc";
 
 // var where is my bag ==== > var whereIsMyBag 
 
-var myName = "Haroon";
+// var myName = "Haroon";
+
+
+var num = 5;
+
+var num2 = 6;
+
+alert(num + num2);
