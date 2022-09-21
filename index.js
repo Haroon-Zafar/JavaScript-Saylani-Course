@@ -43,3 +43,9 @@ var booleanVariable = false;
 
 
 alert(nationality, booleanVariable);
+
+
+
+//  LEGAL AND ILLEGAL VARIABLE NAMES 
+
+var hello world = abc; 
