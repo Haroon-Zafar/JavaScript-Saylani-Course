@@ -1,2 +1,3 @@
 // This is my first js code 
-console.log('HelloWorld');
+alert("Hello World");
+alert("Hello User");
