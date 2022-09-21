@@ -70,3 +70,5 @@ num = num + 6;
 var num2 = 6;
 
 alert(num + num2);
+
+alert("5+6");
