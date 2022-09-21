@@ -22,4 +22,4 @@
 
 var greeting = "Hello World" ;
 
-alert(greeting);
+alert("greeting");
