@@ -20,6 +20,10 @@
 
 //  Variable : I want to save this variable in JavaScript 
 
-var greeting = "Hello World" ;
+// var greeting = "Hello World" ;
 
-alert("greeting");
+// alert("greeting");
+
+var num = 24;
+
+alert(num);
