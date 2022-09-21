@@ -103,6 +103,6 @@ var num = 5;
 
 ++ num ; 
 
-alert(num -- ); // 6
+var num2 = num -- ; // num2 = 6
 
-alert(++num); //6
+alert(++num + num2); // 12
