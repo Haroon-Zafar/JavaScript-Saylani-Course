@@ -24,7 +24,10 @@
 
 // alert("greeting");
 
-var num = 24;
+// var num = 24;
 
-alert(num);
+// alert(num);
 
+var booleanVariable = false;
+
+alert(booleanVariable);
