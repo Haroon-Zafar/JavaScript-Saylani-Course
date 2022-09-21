@@ -48,4 +48,16 @@ alert(nationality, booleanVariable);
 
 //  LEGAL AND ILLEGAL VARIABLE NAMES 
 
-var hello world = abc; 
+// var hello world = abc; 
+
+// USE UNDERSCORES
+
+var hello_world = "abc";
+
+//  CAMEL CASE 
+
+var helloWorld = "abc";
+
+// var where is my bag ==== > var whereIsMyBag 
+
+var myName = "Haroon";
