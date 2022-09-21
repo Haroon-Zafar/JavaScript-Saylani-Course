@@ -65,6 +65,8 @@
 
 var num = 5;
 
+num = num + 6;
+
 var num2 = 6;
 
-alert(num / num2);
+alert(num + num2);
