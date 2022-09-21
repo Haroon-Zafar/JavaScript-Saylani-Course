@@ -1,6 +1,6 @@
 // This is my first js code 
-alert("Hello World");
-alert("Hello User");
+// alert("Hello World");
+// alert("Hello User");
 
 
 // THERE ARE 3 DATA TYPES
@@ -18,3 +18,8 @@ alert("Hello User");
 
 // TRUE FALSE 
 
+//  Variable : I want to save this variable in JavaScript 
+
+var greeting = "Hello World" ;
+
+alert(greeting);
