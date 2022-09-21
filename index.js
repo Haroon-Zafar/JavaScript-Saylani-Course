@@ -63,13 +63,24 @@
 // var myName = "Haroon";
 
 
-var num = 5;
+// var num = 5;
 
-num = num + 6;
+// num = num + 6;
 
-var num2 = 6;
+// var num2 = 6;
 
-alert(num + num2);
+// alert(num + num2);
 
 // % Remainder Operator 
-alert(5 % 6);
+// alert(5 % 6);
+
+
+
+
+
+//  CLASS # 02 
+
+
+var num = 5; 
+num--;
+alert(num);
