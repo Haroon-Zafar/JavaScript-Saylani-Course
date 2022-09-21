@@ -28,16 +28,18 @@
 
 // alert(num);
 
-// var booleanVariable = false;
+var nationality; 
 
-// alert(booleanVariable);
+nationality = "Pakistani";
+
+
+var booleanVariable = false;
+
+
 
 
 // Another Way of Declaring Variable : 
 // Declaring the name of the variable first then after that declaring the value.
 
-var nationality; 
 
-nationality = "Pakistani";
-
-alert(nationality);
+alert(nationality, booleanVariable);
