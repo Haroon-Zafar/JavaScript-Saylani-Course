@@ -81,10 +81,17 @@
 //  CLASS # 02 
 
 
-var num = 5; 
+// var num = 5; 
 
-alert(num++);
-// 5
+// alert(num++);
+// >> 5
 
-alert(num);
+// alert(num);
+// >> 6
+
+var num = 5;
+
+++num ; 
+
+alert(num --);
 // 6
