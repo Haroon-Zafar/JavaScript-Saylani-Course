@@ -111,10 +111,21 @@
 // String Concatenation
 // Using + plus sign to join two texts 
 
-var num = 5;
+// var num = 5;
 
-var text = "Hello";
+// var text = "Hello";
 
-var text2 = 5;
+// var text2 = 5;
 
-console.log( text2 + num + text );
+// console.log( text2 + num + text );
+
+
+
+//  PROMPTS : 
+// Used to take inputs from User 
+
+// Taking Input from User in a field having hint What is your Name ? and store it in name variable.
+
+var name = prompt("What is your Name ? ");
+
+
