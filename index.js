@@ -143,5 +143,5 @@ var favoriteNumber = prompt("What is your Favorite Number ? ", 5);
 // There are two ways to convert String into Numeric
 
 favoriteNumber = parseInt(favoriteNumber);
-
+// if you give Text inside Input Field now, it will return Not a Number (NaN)
 console.log(favoriteNumber + 5);
