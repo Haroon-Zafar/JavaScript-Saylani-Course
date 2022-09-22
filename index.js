@@ -99,10 +99,17 @@
 // alert(num);
 
 
-var num = 5;
+// var num = 5;
 
-++ num ; // 6 
+// ++ num ; // 6 
 
-var num2 = num -- ; // num2 = 6
+// var num2 = num -- ; // num2 = 6
 
-alert(++num + num2); // 12
+// alert(++num + num2); // 12
+
+
+var text = "Hello";
+
+var text2 = "World";
+
+alert(text + text2);
