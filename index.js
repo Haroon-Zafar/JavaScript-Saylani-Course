@@ -150,14 +150,20 @@
 
 // Comparision Operators 
 
-var num = 5;
-var num2 = 6;
+// var num = 5;
+// var num2 = 6;
+
 
 // Always Use tripple equals to sign
 
-console.log( num !== num2 );
+// console.log( num !== num2 );
 
 // Difference Between tripple and double Equals to.
 
 //  "5" == 5  >> true 
 //  "5" === 5 >> false
+
+//  String to Num using +prompt
+var num = +prompt("What is your fav Number ? ", 5);
+
+console.log(num + 5)
