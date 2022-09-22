@@ -126,9 +126,9 @@
 
 // Taking Input from User in a field having hint What is your Name ? and store it in name variable.
 
-var name = prompt("What is your Name ? ");
+var favoriteNumber = prompt("What is your Favorite Number ? ");
 
 // Console.log will print the value which is stored in name variable.
 
-console.log("Hello! " + name);
+console.log(favoriteNumber);
 
