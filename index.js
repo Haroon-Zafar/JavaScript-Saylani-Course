@@ -179,3 +179,7 @@ var num = +prompt("What is your fav Number ? ", 5);
 if(num % 2 === 0 ){
     console.log("This is an even Number.")
 }
+
+else{
+    console.log("This is not an even number.")
+}
