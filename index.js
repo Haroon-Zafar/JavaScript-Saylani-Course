@@ -110,8 +110,11 @@
 
 // String Concatenation
 // Using + plus sign to join two texts 
+
+var num = 5;
+
 var text = "Hello";
 
 var text2 = "5";
 
-console.log(text + text2);
+console.log(text + text2 + num);
