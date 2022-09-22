@@ -126,7 +126,9 @@
 
 // Taking Input from User in a field having hint What is your Name ? and store it in name variable.
 
-var favoriteNumber = prompt("What is your Favorite Number ? ");
+var favoriteNumber = prompt("What is your Favorite Number ? ", 5);
+
+// This 5 will be used as Hint in the Input Field and in case user hasn't input any number 5 will be used as default.
 
 // Console.log will print the value which is stored in name variable.
 
