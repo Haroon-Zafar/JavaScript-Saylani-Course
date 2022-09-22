@@ -151,7 +151,7 @@
 // Comparision Operators 
 
 var num = 5;
-var num2 = 5;
+var num2 = 6;
 
 // Always Use tripple equals to sign
 
