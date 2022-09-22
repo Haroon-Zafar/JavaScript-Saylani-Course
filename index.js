@@ -117,4 +117,4 @@ var text = "Hello";
 
 var text2 = 5;
 
-console.log(text2 + num + text );
+console.log(text+ (text2 + num));
