@@ -155,7 +155,7 @@ var num2 = 6;
 
 // Always Use tripple equals to sign
 
-console.log( num >= num2 );
+console.log( num <= num2 );
 
 // Difference Between tripple and double Equals to.
 
