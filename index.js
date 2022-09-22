@@ -153,4 +153,11 @@
 var num = 5;
 var num2 = 5;
 
+// Always Use tripple equals to sign
+
 console.log( num === num2 );
+
+// Difference Between tripple and double Equals to.
+
+//  "5" == 5  >> true 
+//  "5" === 5 >> false
