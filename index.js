@@ -112,4 +112,4 @@ var text = "Hello";
 
 var text2 = "World";
 
-alert(text + text2);
+alert(text + " " + text2);
