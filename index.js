@@ -112,6 +112,6 @@
 // Using + plus sign to join two texts 
 var text = "Hello";
 
-var text2 = 5;
+var text2 = "5";
 
 console.log(text + text2);
