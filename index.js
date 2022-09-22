@@ -128,4 +128,7 @@
 
 var name = prompt("What is your Name ? ");
 
+// Console.log will print the value which is stored in name variable.
+
+console.log(name);
 
