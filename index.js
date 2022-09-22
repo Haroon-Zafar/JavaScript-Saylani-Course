@@ -126,11 +126,22 @@
 
 // Taking Input from User in a field having hint What is your Name ? and store it in name variable.
 
-var favoriteNumber = prompt("What is your Favorite Number ? ", 5);
+// var favoriteNumber = prompt("What is your Favorite Number ? ", 5);
 
 // This 5 will be used as Hint in the Input Field and in case user hasn't input any number 5 will be used as default.
 
 // Console.log will print the value which is stored in name variable.
 
-console.log(favoriteNumber + 5);
+// Here it is concatenated because variable is taken as Text/String 
+// console.log(favoriteNumber + 5);
 
+
+// How to Convert String into Num
+
+var favoriteNumber = prompt("What is your Favorite Number ? ", 5);
+
+// There are two ways to convert String into Numeric
+
+favoriteNumber = parseInt(favoriteNumber);
+
+console.log(favoriteNumber + 5);
