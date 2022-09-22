@@ -138,10 +138,19 @@
 
 // How to Convert String into Num
 
-var favoriteNumber = prompt("What is your Favorite Number ? ", 5);
+// var favoriteNumber = prompt("What is your Favorite Number ? ", 5);
 
-// There are two ways to convert String into Numeric
+// // There are two ways to convert String into Numeric
 
-favoriteNumber = parseInt(favoriteNumber);
-// if you give Text inside Input Field now, it will return Not a Number (NaN)
-console.log(favoriteNumber + 5);
+// favoriteNumber = parseInt(favoriteNumber);
+// // if you give Text inside Input Field now, it will return Not a Number (NaN)
+// console.log(favoriteNumber + 5);
+
+
+
+// Comparision Operators 
+
+var num = 5;
+var num2 = 5;
+
+console.log( num === num2 );
