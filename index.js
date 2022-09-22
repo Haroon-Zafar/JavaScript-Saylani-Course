@@ -132,5 +132,5 @@ var favoriteNumber = prompt("What is your Favorite Number ? ", 5);
 
 // Console.log will print the value which is stored in name variable.
 
-console.log(favoriteNumber);
+console.log(favoriteNumber + 5);
 
