@@ -164,6 +164,18 @@
 //  "5" === 5 >> false
 
 //  String to Num using +prompt
+// var num = +prompt("What is your fav Number ? ", 5);
+
+// console.log(num + 5)
+
+
+//  IF THEN ELSE STATEMENTS 
+
+
 var num = +prompt("What is your fav Number ? ", 5);
 
-console.log(num + 5)
+// Modulus Operator is being used if Remainder is zero it means Number is fully divisible by.
+
+if(num % 2 === 0 ){
+    console.log("This is an even Number.")
+}
