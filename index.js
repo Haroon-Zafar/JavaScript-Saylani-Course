@@ -198,4 +198,4 @@
 // // false
 
 
-if(2){console.log(true);}
+if(-2){console.log(true);}
