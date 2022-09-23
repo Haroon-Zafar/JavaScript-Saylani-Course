@@ -206,4 +206,4 @@
 // if(null){console.
     // log(true);}
 
-console.log(undefined && false);
+console.log(true && false);
