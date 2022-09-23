@@ -210,4 +210,4 @@
 
 // OR || OPERATOR : 
 
-console.log(null || undefined);
+console.log(null || true);
