@@ -199,5 +199,5 @@
 
 // 0 means the condition is not fulfilled or false
 // "" empty string also doesn't fulfill IF condition.
-if("0"){console.
+if(undefined){console.
     log(true);}
