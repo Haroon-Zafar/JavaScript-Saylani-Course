@@ -203,5 +203,7 @@
 // null 
 //  are all considered false
 
-if(null){console.
-    log(true);}
+// if(null){console.
+    // log(true);}
+
+console.log(undefined && false);
