@@ -172,17 +172,20 @@
 //  IF THEN ELSE STATEMENTS 
 
 
-var num = +prompt("What is your fav Number ? ", 5);
+// var num = +prompt("What is your fav Number ? ", 5);
 
-// Modulus Operator is being used if Remainder is zero it means Number is fully divisible by.
+// // Modulus Operator is being used if Remainder is zero it means Number is fully divisible by.
 
-if(num % 3 === 0 && num % 5 === 0 ){
-    console.log("Divisible by both 3 and 5.")
-}
-else if (num % 3 === 0 ){
-    console.log("Divisible by Only 3")
-}
+// if(num % 3 === 0 && num % 5 === 0 ){
+//     console.log("Divisible by both 3 and 5.")
+// }
+// else if (num % 3 === 0 ){
+//     console.log("Divisible by Only 3")
+// }
 
-else{
-    console.log("Divisible by only 5.")
-}
+// else{
+//     console.log("Divisible by only 5.")
+// }
+
+//  AND OPERATOR && 
+console.log(true && false);
