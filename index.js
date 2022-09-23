@@ -198,5 +198,6 @@
 // // false
 
 // 0 means the condition is not fulfilled or false
-if("false"){console.
+// "" empty string also doesn't fulfill IF condition.
+if(""){console.
     log(true);}
