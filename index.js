@@ -197,5 +197,6 @@
 // console.log(false && false);
 // // false
 
-
-if(-2){console.log(true);}
+// 0 means the condition is not fulfilled or false
+if(0){console.
+    log(true);}
