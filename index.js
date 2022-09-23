@@ -176,10 +176,13 @@ var num = +prompt("What is your fav Number ? ", 5);
 
 // Modulus Operator is being used if Remainder is zero it means Number is fully divisible by.
 
-if(num % 2 === 0 ){
-    console.log("This is an even Number.")
+if(num % 3 === 0 && num % 5 === 0 ){
+    console.log("Divisible by both 3 and 5.")
+}
+else if (num % 3 === 0 ){
+    console.log("Divisible by Only 3")
 }
 
 else{
-    console.log("This is not an even number.")
+    console.log("Divisible by only 5.")
 }
