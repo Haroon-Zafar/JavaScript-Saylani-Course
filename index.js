@@ -248,7 +248,7 @@
 // console.log(months);
 //  >> ["January", "February"]
 
-var months = ["January", "February", ];
+var months = ["January", "February", "April", 4];
 
 // Adding at a specific Index
 // months[2] = "March"; 
@@ -266,6 +266,12 @@ var months = ["January", "February", ];
 // deletes the element from the very last index.
 // months.pop();
 
-// 
-months.unshift(1);
+// The unshift() method adds one or more elements to the beginning of an array and returns the new length of the array.
+//  months.unshift(1);
+
+// I want a specific part to be removed from array and previous and  next data item remains same.
+// I'll do splicing
+
+months.splice(2, 1);
+
 console.log(months);
