@@ -271,7 +271,8 @@ var months = ["January", "February", "April", 4];
 
 // I want a specific part to be removed from array and previous and  next data item remains same.
 // I'll do splicing
+//  can append elements too. 
 
-months.splice(2, 1, "March");
+months.splice(2, 1, "March", "Haroon");
 
 console.log(months);
