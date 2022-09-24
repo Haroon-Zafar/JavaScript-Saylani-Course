@@ -250,5 +250,5 @@
 
 var months = ["January", "February", ];
 
-console.log(months);
-
+console.log(months[0]);
+// but now output will be without commas when indexing 
