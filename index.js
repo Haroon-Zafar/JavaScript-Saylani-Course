@@ -229,7 +229,7 @@ if (num < 0 || num > 100) {
         grade = "C";
     }else if( num >= 50 && num < 60 ){
         grade = "D";
-    }else if( num >= 33 ){
+    }else if( num >= 33 && num < 50 && num >= 0  ){
         grade = "E";
     }
     else{
