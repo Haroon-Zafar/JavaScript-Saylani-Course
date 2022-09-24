@@ -258,11 +258,14 @@ var months = ["January", "February", ];
 
 // Method 2 
 
-months.push("March");
+// months.push("March");
 
-console.log(months);
+// console.log(months);
 // but now output will be without commas when indexing 
 
 // deletes the element from the very last index.
-months.pop();
+// months.pop();
+
+// 
+months.unshift(1);
 console.log(months);
