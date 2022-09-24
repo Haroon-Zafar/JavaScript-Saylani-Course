@@ -262,3 +262,7 @@ months.push("March");
 
 console.log(months);
 // but now output will be without commas when indexing 
+
+// deletes the element from the very last index.
+months.pop();
+console.log(months);
