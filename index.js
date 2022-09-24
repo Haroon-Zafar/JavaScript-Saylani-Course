@@ -218,7 +218,7 @@
 var num = +prompt("Type your percentage : ")
 var grade;
 
-if (num < 0 || num > 100) {
+if (num >= 0 || num <= 100) {
     if( num >= 80 && num <= 100 ){
         grade = "A+";
     } else if( num >= 70  && num < 80){
