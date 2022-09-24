@@ -220,13 +220,13 @@ var grade;
 
 if( num >= 80 && num <= 100 ){
     grade = "A+";
-} else if( num >= 80 ){
+} else if( num >= 70  && num < 80){
     grade = "A";
-} else if( num >= 70 ){
+} else if( num >= 60 && num < 70  ){
     grade = "B";
-} else if( num >= 60 ){
+} else if( num >= 50 && num < 60){
     grade = "C";
-}else if( num >= 50 ){
+}else if( num >= 50 && num < 60 ){
     grade = "D";
 }else if( num >= 33 ){
     grade = "E";
