@@ -210,5 +210,30 @@
 
 // OR || OPERATOR : 
 
-console.log((null && undefined) );
-// false
+// console.log((null && undefined) );
+
+
+// Calculating Percentage: 
+
+var num = +prompt("Type your percentage : ")
+var grade;
+
+if( num >= 80 && num <= 100 ){
+    grade = "A+";
+} else if( num >= 80 ){
+    grade = "A";
+} else if( num >= 70 ){
+    grade = "B";
+} else if( num >= 60 ){
+    grade = "C";
+}else if( num >= 50 ){
+    grade = "D";
+}else if( num >= 33 ){
+    grade = "E";
+}
+else{
+    grade = "F";
+}
+
+
+console.log(grade);
