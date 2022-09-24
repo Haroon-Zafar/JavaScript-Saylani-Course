@@ -251,9 +251,14 @@
 var months = ["January", "February", ];
 
 // Adding at a specific Index
-months[2] = "March"; 
+// months[2] = "March"; 
 
 // This method is not effective when there are so many elements, we have to keep the track of the last index. If we don't have the last index we can't add the element at the desired index.
+
+
+// Method 2 
+
+months.push("March");
 
 console.log(months);
 // but now output will be without commas when indexing 
