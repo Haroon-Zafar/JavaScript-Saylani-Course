@@ -210,5 +210,5 @@
 
 // OR || OPERATOR : 
 
-console.log(null && true || false && true);
+console.log(null && true || true && true);
 // false
