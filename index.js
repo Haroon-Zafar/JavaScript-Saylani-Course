@@ -288,4 +288,13 @@ var months = ["January", "February", "April", 4];
 // 2. while
 // 3. do-while 
 
-// FOR LOOP 
+// FOR LOOP  : 
+
+
+for( var i = 0 ; i <= 99 ; i++ ){
+    
+    // code of For loop here 
+    console.log("Inside For Loop");
+
+
+}
