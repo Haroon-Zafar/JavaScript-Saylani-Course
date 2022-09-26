@@ -277,5 +277,15 @@ var months = ["January", "February", "April", 4];
 
 // .slice() produces a copy of the edited string
 
-months = months.slice(0,1);
-console.log(months);
+// months = months.slice(0,1);
+// console.log(months);
+
+
+
+// LOOPS
+
+// 1. for 
+// 2. while
+// 3. do-while 
+
+// FOR LOOP 
