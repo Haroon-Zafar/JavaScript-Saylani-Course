@@ -335,14 +335,27 @@ var months = ["January", "February", "April", 4];
 
 */
 
-for ( var i = 1 ; i <= 5 ; i++ ){
+// for ( var i = 1 ; i <= 5 ; i++ ){
 
-    var star = "";
+//     var star = "";
 
-    for ( var j = 1 ; j <= i ; j ++ ){
-        star = star + "* ";
+//     for ( var j = 1 ; j <= i ; j ++ ){
+//         star = star + "* ";
 
+//     }
+//     console.log(star);
+
+// }
+
+
+
+var table = prompt("Write anything... ? ");
+
+var array = [[1, 2, 3], ["a", "b", "c"]];
+
+for(var i = 0 ; i < array.length; i ++ ){
+
+    for (var j = 0 ; j < array[i].length ; j ++ ){
+        console.log(array[i][j]);
     }
-    console.log(star);
-
 }
