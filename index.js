@@ -300,13 +300,17 @@ var months = ["January", "February", "April", 4];
 // }
 
 
+//  Finding an element from an array 
+// Iteration throughout the array.
 var cities = ["Karachi", "Islamabad", "Lahore", "Peshawar"];
 
 var city = prompt("Write your city name ? ");
 
 for ( var i = 0 ; i <= cities.length ; i ++ ){
 
-    if ( city === cities [i]); {    
+    if ( city === cities [i]) {    
         console.log("Found " + city);
+    } else {
+        console.log("Not Found", city);
     }
 }
