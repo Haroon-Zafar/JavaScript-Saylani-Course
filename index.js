@@ -302,21 +302,35 @@ var months = ["January", "February", "April", 4];
 
 //  Finding an element from an array 
 // Iteration throughout the array.
-var cities = ["Karachi", "Islamabad", "Lahore", "Peshawar"];
+// var cities = ["Karachi", "Islamabad", "Lahore", "Peshawar"];
 
-var city = prompt("Write your city name ? ");
+// var city = prompt("Write your city name ? ");
 
-var found = false ; 
+// var found = false ; 
 
-for ( var i = 0 ; i <= cities.length ; i ++ ){
+// for ( var i = 0 ; i <= cities.length ; i ++ ){
 
-    if ( city.toLowerCase() === cities[i].toLowerCase()) {    
-        console.log("Found " + city);
-        // Use `break` so that loop will not iterate through again and again once it finds the target. 
-        found = true;
-        break;
-    } 
-}
-if (!found) {
-    console.log("Not Found", city);
-}
+//     if ( city.toLowerCase() === cities[i].toLowerCase()) {    
+//         console.log("Found " + city);
+//         // Use `break` so that loop will not iterate through again and again once it finds the target. 
+//         found = true;
+//         break;
+//     } 
+// }
+// if (!found) {
+//     console.log("Not Found", city);
+// }
+
+
+
+//  Multi Line Comments
+// Printing Patterns
+/*
+
+*
+* * 
+* * * 
+* * * *
+* * * * *
+
+*/
