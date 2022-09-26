@@ -291,10 +291,22 @@ var months = ["January", "February", "April", 4];
 // FOR LOOP  : 
 
 
-for( var i = 1 ; i <= 10 ; i++ ){
+// for( var i = 1 ; i <= 10 ; i++ ){
     
-    // code of For loop here 
-    console.log("2 X " + i + " = " + i*2);
+//     // code of For loop here 
+//     console.log("2 X " + i + " = " + i*2);
 
 
+// }
+
+
+var cities = ["Karachi", "Islamabad", "Lahore", "Peshawar"];
+
+var city = prompt("Write your city name ? ");
+
+for ( var i = 0 ; i <= cities.length ; i ++ ){
+
+    if ( city === cities [i]); {    
+        console.log("Found " + city);
+    }
 }
