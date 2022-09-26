@@ -294,7 +294,7 @@ var months = ["January", "February", "April", 4];
 for( var i = 0 ; i <= 99 ; i++ ){
     
     // code of For loop here 
-    console.log("Inside For Loop");
+    console.log("Inside For Loop", i);
 
 
 }
