@@ -291,10 +291,10 @@ var months = ["January", "February", "April", 4];
 // FOR LOOP  : 
 
 
-for( var i = 0 ; i <= 99 ; i++ ){
+for( var i = 1 ; i <= 10 ; i++ ){
     
     // code of For loop here 
-    console.log("Inside For Loop", i);
+    console.log("2 X " + i + " = " + i*2);
 
 
 }
