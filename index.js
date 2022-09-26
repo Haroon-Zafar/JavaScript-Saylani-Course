@@ -276,6 +276,6 @@ var months = ["January", "February", "April", 4];
 // months.splice(2, 1, "March", "Haroon");
 
 // .slice() produces a copy of the edited string
-var a;
-a = months.slice(0,1);
-console.log(a);
+
+months = months.slice(0,1);
+console.log(months);
