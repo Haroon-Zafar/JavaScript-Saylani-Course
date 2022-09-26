@@ -349,8 +349,6 @@ var months = ["January", "February", "April", 4];
 
 
 
-var table = prompt("Write anything... ? ");
-
 var array = [[1, 2, 3], ["a", "b", "c"]];
 
 for(var i = 0 ; i < array.length; i ++ ){
