@@ -306,13 +306,16 @@ var cities = ["Karachi", "Islamabad", "Lahore", "Peshawar"];
 
 var city = prompt("Write your city name ? ");
 
+var found = false ; 
+
 for ( var i = 0 ; i <= cities.length ; i ++ ){
 
     if ( city === cities [i]) {    
         console.log("Found " + city);
         // Use `break` so that loop will not iterate through again and again once it finds the target. 
         break;
-    } else {
-        console.log("Not Found", city);
-    }
+    } 
+}
+if (!found) {
+    console.log("Not Found", city);
 }
