@@ -372,6 +372,6 @@ console.log(text);
 
 // converting into lower-case 
 
-console.log(text.toLowerCase);
+console.log(text.toLowerCase());
 
 
