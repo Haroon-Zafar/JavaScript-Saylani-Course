@@ -385,8 +385,8 @@ var length = text.length;
 // console.log(length);
 
 // .slice() method : It makes a copy of the string without changing the actual string. 
-// .slice( starting index, ending index - 1, )
+// .slice() starting index, ending index - 1, )
 
-var textSlicing = text.slice(0, 6);
+var textSlicing = text.slice(0,);
 
 console.log(textSlicing);
