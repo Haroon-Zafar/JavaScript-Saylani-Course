@@ -437,6 +437,6 @@ var text;
 
 var num = 5.86 ; 
 
-console.log(Math.round(5.43));
+console.log(Math.round(5.67));
 
 
