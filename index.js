@@ -349,11 +349,29 @@ var months = ["January", "February", "April", 4];
 
 
 
-var array = [[1, 2, 3], ["a", "b", "c"]];
+// var array = [[1, 2, 3], ["a", "b", "c"]];
 
-for(var i = 0 ; i < array.length; i ++ ){
+// for(var i = 0 ; i < array.length; i ++ ){
 
-    for (var j = 0 ; j < array[i].length ; j ++ ){
-        console.log(array[i][j]);
-    }
-}
+//     for (var j = 0 ; j < array[i].length ; j ++ ){
+//         console.log(array[i][j]);
+//     }
+// }
+
+
+
+
+// String Find, Replace & Numbers Generation, Round Off, Fixed Decimal Value 
+
+
+var text; 
+
+text = "This Is An Apple."
+
+console.log(text);
+
+// converting into lower-case 
+
+console.log(text.toLowerCase);
+
+
