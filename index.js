@@ -422,3 +422,11 @@ var lastCharacter = text.charAt(text.length - 1 );
 console.log(text);
 console.log(lastCharacter);
 
+// Replacing a String with another one with one method.
+
+// .replace("String you want to replace","String you want to put in place of that replaced one" ) 
+var replacedText;
+
+replacedText = text.replace("War", "Peace");
+console.log(replacedText);
+
