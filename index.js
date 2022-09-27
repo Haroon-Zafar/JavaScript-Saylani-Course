@@ -374,4 +374,8 @@ console.log(text);
 
 console.log(text.toLowerCase());
 
+// CONVERTING INTO UPPER-CASE 
+
+console.log(text.toUpperCase());
+
 
