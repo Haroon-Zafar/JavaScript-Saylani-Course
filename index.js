@@ -366,7 +366,7 @@ var months = ["January", "February", "April", 4];
 
 var text; 
 
-text = "This Is An Apple."
+text = "World War II"
 
 console.log(text);
 
@@ -382,11 +382,22 @@ console.log(text.toUpperCase());
 
 var length = text.length;
 
-// console.log(length);
+// // console.log(length);
 
-// .slice() method : It makes a copy of the string without changing the actual string. 
-// .slice() starting index, ending index - 1, )
+// // .slice() method : It makes a copy of the string without changing the actual string. 
+// // .slice() starting index, ending index - 1, )
 
-var textSlicing = text.slice(0,);
+// var textSlicing = text.slice(0,);
 
-console.log(textSlicing);
+// console.log(textSlicing);
+
+// SEARCHING AND REPLACING THE BANNED STRING 
+for( var i = 0 ; i < text.length ; i ++ ){
+
+    if ( text.slice(i, i + 12) === "World War II"){
+        text = text.slice(0, i) + "the Second World War" + text.slice(i + 12);
+    }
+
+}
+
+console.log(text);
