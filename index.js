@@ -408,25 +408,35 @@ var months = ["January", "February", "April", 4];
 
 var text; 
 
-text = "World War II"
+// text = "World War II"
 
-var firstChar = text.indexOf("World War II");
+// var firstChar = text.indexOf("World War II");
 
-if (firstChar !== -1){
+// if (firstChar !== -1){
     
-    text = text.slice(0, firstChar) + "the Second World War" + text.slice(firstChar + 12);
-}
+//     text = text.slice(0, firstChar) + "the Second World War" + text.slice(firstChar + 12);
+// }
 
-// means character at last index
-var lastCharacter = text.charAt(text.length - 1 );
-console.log(text);
-console.log(lastCharacter);
+// // means character at last index
+// var lastCharacter = text.charAt(text.length - 1 );
+// console.log(text);
+// console.log(lastCharacter);
 
-// Replacing a String with another one with one method.
+// // Replacing a String with another one with one method.
 
-// .replace("String you want to replace","String you want to put in place of that replaced one" ) 
-var replacedText;
+// // .replace("String you want to replace","String you want to put in place of that replaced one" ) 
+// var replacedText;
 
-replacedText = text.replace("War", "Peace");
-console.log(replacedText);
+// replacedText = text.replace("War", "Peace");
+// console.log(replacedText);
+
+
+
+// ROUNDING OFF NUMBERS :
+
+
+var num = 5.86 ; 
+
+console.log(Math.round(5.43));
+
 
