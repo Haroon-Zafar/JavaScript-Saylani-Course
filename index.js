@@ -435,8 +435,16 @@ var text;
 // ROUNDING OFF NUMBERS :
 
 
-var num = 5.86 ; 
+var num = 6.1 ; 
 
-console.log(Math.round(5.67));
+// console.log(Math.round(5.67));
+
+// Ceiling Function --->   5.1 will be converted to 6 in ceiling function.
+
+console.log(Math.ceil(num));
+
+
+
+
 
 
