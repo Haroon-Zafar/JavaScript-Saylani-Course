@@ -364,23 +364,23 @@ var months = ["January", "February", "April", 4];
 // String Find, Replace & Numbers Generation, Round Off, Fixed Decimal Value 
 
 
-var text; 
+// var text; 
 
-text = "World War II"
+// text = "World War II"
 
-console.log(text);
+// console.log(text);
 
-// converting into lower-case 
+// // converting into lower-case 
 
-console.log(text.toLowerCase());
+// console.log(text.toLowerCase());
 
-// CONVERTING INTO UPPER-CASE 
+// // CONVERTING INTO UPPER-CASE 
 
-console.log(text.toUpperCase());
+// console.log(text.toUpperCase());
 
-// Length of String. 
+// // Length of String. 
 
-var length = text.length;
+// var length = text.length;
 
 // // console.log(length);
 
@@ -391,13 +391,34 @@ var length = text.length;
 
 // console.log(textSlicing);
 
-// SEARCHING AND REPLACING THE BANNED STRING 
-for( var i = 0 ; i < text.length ; i ++ ){
+// // SEARCHING AND REPLACING THE BANNED STRING 
+// for( var i = 0 ; i < text.length ; i ++ ){
 
-    if ( text.slice(i, i + 12) === "World War II"){
-        text = text.slice(0, i) + "the Second World War" + text.slice(i + 12);
-    }
+//     if ( text.slice(i, i + 12) === "World War II"){
+//         text = text.slice(0, i) + "the Second World War" + text.slice(i + 12);
+//     }
 
+// }
+
+// console.log(text);
+
+
+//  But JS has a more efficient of doing this. 
+// using .indexOf() method
+
+var text; 
+
+text = "World War II"
+
+var firstChar = text.indexOf("World War II");
+
+if (firstChar !== -1){
+    
+    text = text.slice(0, firstChar) + "the Second World War" + text.slice(firstChar + 12);
 }
 
+// means character at last index
+var lastCharacter = text.charAt(text.length - 1 );
 console.log(text);
+console.log(lastCharacter);
+
