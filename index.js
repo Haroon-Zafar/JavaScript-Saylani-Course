@@ -378,4 +378,13 @@ console.log(text.toLowerCase());
 
 console.log(text.toUpperCase());
 
+// Length of String. 
+
+var length = text.length;
+
+console.log(length);
+
+
+
+
 
