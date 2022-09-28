@@ -454,15 +454,25 @@ var num = Math.floor(Math.random() * 10 ) ;
 // console.log(Math.floor(Math.random() * 100 )); 
 
 
-// GUESSING A NUMBER GAME
-var guess = +prompt("Guess the number between 1-10");
+// // GUESSING A NUMBER GAME
+// var guess = +prompt("Guess the number between 1-10");
 
-if (guess === num){
-    alert("Bingo! Correct Answer");
-}
-else if (guess === num + 1 || guess === num - 1 ){
-    alert("Close enough to the correct answer");
-}
-else {
-    alert("Try Again");
-}
+// if (guess === num){
+//     alert("Bingo! Correct Answer");
+// }
+// else if (guess === num + 1 || guess === num - 1 ){
+//     alert("Close enough to the correct answer");
+// }
+// else {
+//     alert("Try Again");
+// }
+
+
+// CONVERTING STRING INTO NUMBER
+
+var num = 123;
+
+var numToStr = num.toString();
+
+console.log(numToStr);
+
