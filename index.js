@@ -460,7 +460,7 @@ var guess = +prompt("Guess the number between 1-10");
 if (guess === num){
     alert("Bingo! Correct Answer");
 }
-else if (guess === num + 1 || guess == num - 1 ){
+else if (guess === num + 1 || guess === num - 1 ){
     alert("Close enough to the correct answer");
 }
 else {
