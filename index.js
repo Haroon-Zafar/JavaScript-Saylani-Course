@@ -481,7 +481,7 @@ var num = Math.random() ;
 
 
 // Fixing the decimal values of a number after a certain point.
-
+// .toFixed() returns a string.
 // .toFixed() method only prints the number of decimal values you want to print.
 console.log(num);
 console.log(num.toFixed(3));
