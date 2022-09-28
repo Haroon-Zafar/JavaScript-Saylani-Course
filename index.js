@@ -450,5 +450,5 @@ var num = 5.9 ;
 // console.log(Math.floor(num));
 
 // GENERATING RANDOM NUMBERS 
-
-console.log(Math.random()); 
+// always return random integer within 0-10 range.  
+console.log(Math.floor(Math.random() * 10 )); 
