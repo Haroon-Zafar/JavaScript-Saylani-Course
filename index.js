@@ -442,16 +442,13 @@ var num = 5.9 ;
 // Ceiling Function --->   5.1 will be converted to 6 in ceiling function.
 // .ceil() function
 
-console.log(Math.ceil(num));
+// console.log(Math.ceil(num));
 
 // .floor() function
 // 5.9 will be converted to 5 
 
-console.log(Math.floor(num));
+// console.log(Math.floor(num));
 
+// GENERATING RANDOM NUMBERS 
 
-
-
-
-
-
+console.log(Math.random()); 
