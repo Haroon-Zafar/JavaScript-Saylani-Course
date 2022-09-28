@@ -435,7 +435,7 @@ var text;
 // ROUNDING OFF NUMBERS :
 
 
-var num = Math.floor(Math.random() * 10 ) ; 
+var num = Math.random() ; 
 
 // console.log(Math.round(5.67));
 
@@ -468,11 +468,20 @@ var num = Math.floor(Math.random() * 10 ) ;
 // }
 
 
-// CONVERTING STRING INTO NUMBER
+// // CONVERTING STRING INTO NUMBER
 
-var num = 123;
+// var num = 123;
 
-var numToStr = num.toString();
+// .toString() method
 
-console.log(numToStr);
 
+// var numToStr = num.toString();
+
+// console.log(numToStr);
+
+
+// Fixing the decimal values of a number after a certain point.
+
+// .toFixed() method only prints the number of decimal values you want to print.
+console.log(num);
+console.log(num.toFixed(3));
