@@ -435,7 +435,7 @@ var text;
 // ROUNDING OFF NUMBERS :
 
 
-var num = 5.9 ; 
+var num = Math.floor(Math.random() * 10 ) ; 
 
 // console.log(Math.round(5.67));
 
@@ -451,4 +451,18 @@ var num = 5.9 ;
 
 // GENERATING RANDOM NUMBERS 
 // always return random integer within 0-10 range.  
-console.log(Math.floor(Math.random() * 100 )); 
+// console.log(Math.floor(Math.random() * 100 )); 
+
+
+// GUESSING A NUMBER GAME
+var guess = +prompt("Guess the number between 1-10");
+
+if (guess === num){
+    alert("Bingo! Correct Answer");
+}
+else if (guess === num + 1 || guess == num - 1 ){
+    alert("Close enough to the correct answer");
+}
+else {
+    alert("Try Again");
+}
