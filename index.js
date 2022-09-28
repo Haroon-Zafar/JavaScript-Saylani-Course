@@ -485,3 +485,7 @@ var num = Math.random() ;
 // .toFixed() method only prints the number of decimal values you want to print.
 console.log(num);
 console.log(num.toFixed(3));
+
+// to convert a string into a number which is returned by .toFixed() method. is to use the + sign before the string.
+
+console.log(+num.toFixed(3));
