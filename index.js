@@ -517,4 +517,8 @@ console.log(date);
 
 // .getFullYear() method
 // returns the year
-console.log(date.getFullYear());
+// console.log(date.getFullYear());
+
+// .getHours() method
+// returns the hours
+console.log(date.getHours());
