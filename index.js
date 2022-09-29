@@ -521,4 +521,8 @@ console.log(date);
 
 // .getHours() method
 // returns the hours
-console.log(date.getHours());
+// console.log(date.getHours());
+
+var dayNames = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+
+console.log(dayNames[date.getDay()]);
