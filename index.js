@@ -528,3 +528,8 @@ console.log(date);
 // console.log(dayNames[date.getDay()]);
 
 // .getTime() method
+// returns the time in milliseconds since January 1970
+
+//  Used highly in comparision 
+
+console.log(date.getTime());
