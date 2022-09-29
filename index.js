@@ -500,9 +500,13 @@ console.log(date);
 
 // .toString() method 
 
-console.log(date.toString());
+// console.log(date.toString());
 
 
-// .getDay() method
-// Starting from Sunday = 0 
-console.log(date.getDay());
+// // .getDay() method
+// // Starting from Sunday = 0 
+// console.log(date.getDay());
+
+// // .getDate() method
+// // returns the date of the month
+console.log(date.getDate());
