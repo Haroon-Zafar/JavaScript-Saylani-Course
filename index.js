@@ -533,3 +533,12 @@ console.log(date);
 //  Used highly in comparision 
 
 console.log(date.getTime());
+
+// comparision of two dates
+
+var time1 = date.getMilliseconds();
+for ( i = 0 ; i >= 100000 ; i ++ ){
+}
+var time2 = date.getMilliseconds();
+
+console.log(time1 - time2);
