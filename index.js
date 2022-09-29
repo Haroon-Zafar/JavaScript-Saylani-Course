@@ -480,12 +480,19 @@ var num = Math.random() ;
 // console.log(numToStr);
 
 
-// Fixing the decimal values of a number after a certain point.
-// .toFixed() returns a string.
-// .toFixed() method only prints the number of decimal values you want to print.
-console.log(num);
-console.log(num.toFixed(3));
+// // Fixing the decimal values of a number after a certain point.
+// // .toFixed() returns a string.
+// // .toFixed() method only prints the number of decimal values you want to print.
+// console.log(num);
+// console.log(num.toFixed(3));
 
-// to convert a string into a number which is returned by .toFixed() method. is to use the + sign before the string.
+// // to convert a string into a number which is returned by .toFixed() method. is to use the + sign before the string.
 
-console.log(+num.toFixed(3));
+// console.log(+num.toFixed(3));
+
+// DATE AND TIME
+// new Date() method
+
+console.log(new Date());
+
+// Thu Sep 29 2022 23:30:40 GMT+0500 (Pakistan Standard Time)
