@@ -498,3 +498,6 @@ console.log(date);
 
 // Thu Sep 29 2022 23:30:40 GMT+0500 (Pakistan Standard Time)
 
+// .toString() method 
+
+console.log(date.toString());
