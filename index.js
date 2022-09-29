@@ -511,6 +511,10 @@ console.log(date);
 // // returns the date of the month
 // console.log(date.getDate());
 
-// // .getMonth() method
-// // returns the month of the year
-console.log(date.getMonth());
+ // .getMonth() method
+// returns the month of the year
+// console.log(date.getMonth());
+
+// .getFullYear() method
+// returns the year
+console.log(date.getFullYear());
