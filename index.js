@@ -501,3 +501,8 @@ console.log(date);
 // .toString() method 
 
 console.log(date.toString());
+
+
+// .getDay() method
+// Starting from Sunday = 0 
+console.log(date.getDay());
