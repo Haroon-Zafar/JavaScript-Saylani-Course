@@ -493,6 +493,8 @@ var num = Math.random() ;
 // DATE AND TIME
 // new Date() method
 
-console.log(new Date());
+var date = new Date();
+console.log(date);
 
 // Thu Sep 29 2022 23:30:40 GMT+0500 (Pakistan Standard Time)
+
