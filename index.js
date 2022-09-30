@@ -540,6 +540,10 @@ console.log(date);
 var date1 = new Date("September 30, 2022");
 var date2 = new Date();
 
-console.log(date2.getTime() - date1.getTime());
+
+//  Convert miliseconds into seconds
+
+var timeInSeconds = (date2.getTime() - date1.getTime())/1000;
+console.log(timeInSeconds);
 
 
