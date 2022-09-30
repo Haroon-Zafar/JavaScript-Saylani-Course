@@ -541,9 +541,19 @@ var date1 = new Date("September 30, 2022");
 var date2 = new Date();
 
 
-//  Convert miliseconds into seconds
+// //  Convert miliseconds into seconds
 
 var timeInSeconds = (date2.getTime() - date1.getTime())/1000;
-console.log(timeInSeconds);
+
+//  Convert seconds into minutes
+
+var timeInMinutes = (timeInSeconds)/60;
+
+//  Convert minutes into hours
+
+
+var timeInHours = (timeInMinutes)/60;
+
+console.log(timeInHours);
 
 
