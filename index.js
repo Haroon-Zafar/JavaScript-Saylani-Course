@@ -579,4 +579,15 @@ var num = Math.random() ;
 
 // if Time is Important you can specify it as well. 
 
-var d = new Date("July 21, 1993 13:25:00");
+// var d = new Date("July 21, 1993 13:25:00");
+
+
+//  we can set dates as well
+
+var date = new Date();
+
+console.log("Before Setting the setFullYear Function ", date.getFullYear());
+
+date.setFullYear(2023);
+
+console.log(date.getFullYear());
