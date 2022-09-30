@@ -562,17 +562,21 @@ var num = Math.random() ;
 // console.log(date.getDay());
 // console.log(date.getMonth())
 
-//  Difference between two dates 
+// //  Difference between two dates 
 
-var today = new Date(); 
-var doomsday = new Date("June 30, 2035");
+// var today = new Date(); 
+// var doomsday = new Date("June 30, 2035");
 
-var msToday = today.getTime();
-var msDoomsDay = doomsday.getTime();
+// var msToday = today.getTime();
+// var msDoomsDay = doomsday.getTime();
 
-var msDiff = msDoomsDay - msToday; 
+// var msDiff = msDoomsDay - msToday; 
 
-// 1000 = for seconds, 60 for minutes , 60 for hours, 24 for days, to get days 
-var diff = msDiff/(1000 * 60 * 60 * 24);
+// // 1000 = for seconds, 60 for minutes , 60 for hours, 24 for days, to get days 
+// var diff = msDiff/(1000 * 60 * 60 * 24);
 
-console.log(diff);
+// console.log(diff);
+
+// if Time is Important you can specify it as well. 
+
+var d = new Date("July 21, 1993 13:25:00");
