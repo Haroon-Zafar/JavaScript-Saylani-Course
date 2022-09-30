@@ -556,8 +556,20 @@ var num = Math.random() ;
 
 // console.log(timeInHours);
 
-var date = new Date("September 30, 2026");
+// var date = new Date("September 30, 2026");
 
-// It means that it will return the day ( Monday, Tuesdat etc ) on Sep 30, 2026 
-console.log(date.getDay());
-console.log(date.getMonth())
+// // It means that it will return the day ( Monday, Tuesdat etc ) on Sep 30, 2026 
+// console.log(date.getDay());
+// console.log(date.getMonth())
+
+//  Difference between two dates 
+
+var today = new Date(); 
+var doomsday = new Date("June 30, 2035");
+
+var msToday = today.getTime();
+var msDoomsDay = doomsday.getTime();
+
+var msDiff = msDoomsDay - msToday; 
+
+console.log(msDiff);
