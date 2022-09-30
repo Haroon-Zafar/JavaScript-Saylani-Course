@@ -572,4 +572,7 @@ var msDoomsDay = doomsday.getTime();
 
 var msDiff = msDoomsDay - msToday; 
 
-console.log(msDiff);
+// 1000 = for seconds, 60 for minutes , 60 for hours, 24 for days, to get days 
+var diff = msDiff/(1000 * 60 * 60 * 24);
+
+console.log(diff);
