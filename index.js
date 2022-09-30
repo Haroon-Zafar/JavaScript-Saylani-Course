@@ -532,13 +532,14 @@ console.log(date);
 
 //  Used highly in comparision 
 
-console.log(date.getTime());
+// console.log(date.getTime());
 
 // comparision of two dates
 
-var time1 = date.getMilliseconds();
-for ( i = 0 ; i >= 100000 ; i ++ ){
-}
-var time2 = date.getMilliseconds();
 
-console.log(time1 - time2);
+var date1 = new Date("September 30, 2022");
+var date2 = new Date();
+
+console.log(date2.getTime() - date1.getTime());
+
+
