@@ -537,23 +537,26 @@ console.log(date);
 // comparision of two dates
 
 
-var date1 = new Date("September 30, 2022");
-var date2 = new Date();
+// var date1 = new Date("September 30, 2022");
+// var date2 = new Date();
 
 
-// //  Convert miliseconds into seconds
+// // //  Convert miliseconds into seconds
 
-var timeInSeconds = (date2.getTime() - date1.getTime())/1000;
+// var timeInSeconds = (date2.getTime() - date1.getTime())/1000;
 
-//  Convert seconds into minutes
+// //  Convert seconds into minutes
 
-var timeInMinutes = (timeInSeconds)/60;
+// var timeInMinutes = (timeInSeconds)/60;
 
-//  Convert minutes into hours
-
-
-var timeInHours = (timeInMinutes)/60;
-
-console.log(timeInHours);
+// //  Convert minutes into hours
 
 
+// var timeInHours = (timeInMinutes)/60;
+
+// console.log(timeInHours);
+
+var date = new Date("September 30, 2026");
+
+// It means that it will return the day ( Monday, Tuesdat etc ) on Sep 30, 2026 
+console.log(date.getDay());
