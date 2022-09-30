@@ -591,3 +591,5 @@ console.log("Before Setting the setFullYear Function ", date.getFullYear());
 date.setFullYear(2023);
 
 console.log(date.getFullYear());
+
+// THERE IS NO SUCH FUNCTION AS .setDay()
