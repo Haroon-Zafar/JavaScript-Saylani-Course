@@ -493,8 +493,8 @@ var num = Math.random() ;
 // DATE AND TIME
 // new Date() method
 
-var date = new Date();
-console.log(date);
+// var date = new Date();
+// console.log(date);
 
 // Thu Sep 29 2022 23:30:40 GMT+0500 (Pakistan Standard Time)
 
@@ -560,3 +560,4 @@ var date = new Date("September 30, 2026");
 
 // It means that it will return the day ( Monday, Tuesdat etc ) on Sep 30, 2026 
 console.log(date.getDay());
+console.log(date.getMonth())
