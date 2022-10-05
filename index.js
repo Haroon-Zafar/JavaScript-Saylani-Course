@@ -600,6 +600,14 @@ var num = Math.random() ;
 
 // ***********************************    FUNCTIONS    ***********************************
 // Types of Functions : 
-// 1. Builtin Functions ( have round brackets in their ends. )
-// 2. 
+//  Builtin Functions ( have round brackets in their ends. )
+//  User Defined Functions ( have curly brackets in their ends. )
+// always use function keyword to define a function.
+// function functionName(){
+//     // code
+// } 
+
+function greet(){
+    alert("Hello World");
+}
 
