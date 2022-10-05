@@ -633,6 +633,18 @@ function add(parametr1, parameter2){
     return c;
 }
 // if given parameters are not equal to the parameters in the function then it will return NaN ( Not a Number )
-console.log(add(10, 20));
+// console.log(add(10, 20));
 
 // if some function is not returning anything then it will return undefined.
+
+
+var abc = 10;
+
+function demo(){
+    var abc = 20;
+    console.log(abc);
+}
+
+//  what value will be the outcome ? 
+// it will print 20 because the variable abc is defined inside the function demo() and it is not a global variable. MEANS LOCAL VARIABLE IS PREFFERED OVER GLOBAL VARIABLE.
+demo(); 
