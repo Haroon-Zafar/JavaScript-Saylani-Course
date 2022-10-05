@@ -607,7 +607,11 @@ var num = Math.random() ;
 //     // code
 // } 
 
-function greet(){
-    alert("Hello World");
+function tellTime(){
+    // tells the time
+    var now = new Date();
+    var theHr = now.getHours();
+    var theMin = now.getMinutes();
+    alert("Current Time : " + theHr + ":" + theMin);
 }
 
