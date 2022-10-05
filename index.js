@@ -624,11 +624,11 @@ function tellTime(){
 // tellTime();
 
 
-function add(){
-    var a = 10;
-    var b = 20;
-    var c = a + b;
+function add(parametr1, parameter2){
+    // var a = 10;
+    // var b = 20;
+    var c = parametr1 + parameter2 ;
     console.log(c);
 }
 
-add();
+add(1,2);
