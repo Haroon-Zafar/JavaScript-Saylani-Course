@@ -630,5 +630,5 @@ function add(parametr1, parameter2){
     var c = parametr1 + parameter2 ;
     console.log(c);
 }
-
-add(1,2);
+// if given parameters are not equal to the parameters in the function then it will return NaN ( Not a Number )
+add(1);
