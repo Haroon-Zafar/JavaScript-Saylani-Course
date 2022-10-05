@@ -628,7 +628,9 @@ function add(parametr1, parameter2){
     // var a = 10;
     // var b = 20;
     var c = parametr1 + parameter2 ;
-    console.log(c);
+
+    // return tells that the function is done and it will return the value of c to the variable which called this function.
+    return c;
 }
 // if given parameters are not equal to the parameters in the function then it will return NaN ( Not a Number )
 add(1);
