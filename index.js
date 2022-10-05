@@ -584,12 +584,22 @@ var num = Math.random() ;
 
 //  we can set dates as well
 
-var date = new Date();
+// var date = new Date();
 
-console.log("Before Setting the setFullYear Function ", date.getFullYear());
+// console.log("Before Setting the setFullYear Function ", date.getFullYear());
 
-date.setFullYear(2023);
+// date.setFullYear(2023);
 
-console.log(date.getFullYear());
+// console.log(date.getFullYear());
 
 // THERE IS NO SUCH FUNCTION AS .setDay()
+
+
+
+
+
+// ***********************************    FUNCTIONS    ***********************************
+// Types of Functions : 
+// 1. Builtin Functions ( have round brackets in their ends. )
+// 2. 
+
