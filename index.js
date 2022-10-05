@@ -634,3 +634,5 @@ function add(parametr1, parameter2){
 }
 // if given parameters are not equal to the parameters in the function then it will return NaN ( Not a Number )
 console.log(add(10, 20));
+
+// if some function is not returning anything then it will return undefined.
