@@ -633,4 +633,4 @@ function add(parametr1, parameter2){
     return c;
 }
 // if given parameters are not equal to the parameters in the function then it will return NaN ( Not a Number )
-add(1);
+console.log(add(10, 20));
