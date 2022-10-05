@@ -617,6 +617,8 @@ function tellTime(){
 
 
 // we have to call this function. otherwise it is a dead piece of code which do nothing until and unless called upon. 
-var time = tellTime();
+// var time = tellTime();
 
-console.log(time);
+// console.log(time);
+
+tellTime();
