@@ -653,16 +653,26 @@ function add(parametr1, parameter2){
 
 // LOOPS 
 
-// FOR LOOP
+// // FOR LOOP
 
-for ( var i = 0; i < 10; i++){
-    console.log(i);
-}
+// for ( var i = 0; i < 10; i++){
+//     console.log(i);
+// }
 
-// WHILE LOOP
+// // WHILE LOOP
 
+// var i = 0;
+// while (i < 10){
+//     console.log(i);
+//     i++;
+// }
+
+
+// DO WHILE LOOP
+// Important thing about this loop is that it will always run even when condition is false. 
 var i = 0;
-while (i < 10){
+do {
     console.log(i);
     i++;
 }
+while (i <= 3); 
