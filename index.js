@@ -638,13 +638,24 @@ function add(parametr1, parameter2){
 // if some function is not returning anything then it will return undefined.
 
 
-var abc = 10;
+// var abc = 10;
 
-function demo(){
-    var abc = 20;
-    console.log(abc);
+// function demo(){
+//     var abc = 20;
+//     console.log(abc);
+// }
+
+// //  what value will be the outcome ? 
+// // it will print 20 because the variable abc is defined inside the function demo() and it is not a global variable. MEANS LOCAL VARIABLE IS PREFFERED OVER GLOBAL VARIABLE.
+// demo();     
+
+
+
+// LOOPS 
+
+// FOR LOOP
+
+for ( var i = 0; i < 10; i++){
+    console.log(i);
 }
 
-//  what value will be the outcome ? 
-// it will print 20 because the variable abc is defined inside the function demo() and it is not a global variable. MEANS LOCAL VARIABLE IS PREFFERED OVER GLOBAL VARIABLE.
-demo(); 
