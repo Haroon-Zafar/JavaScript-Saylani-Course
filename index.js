@@ -670,9 +670,18 @@ function add(parametr1, parameter2){
 
 // DO WHILE LOOP
 // Important thing about this loop is that it will always run even when condition is false. 
-var i = 0;
-do {
-    console.log(i);
-    i++;
-}
-while (i < 3); 
+// var i = 0;
+// do {
+//     console.log(i);
+//     i++;
+// }
+// while (i < 3); 
+
+
+// EVENTS 
+// Events are the actions that are performed by the user on the webpage.
+// Events are of two types :
+// 1. Builtin Events
+// 2. User Defined Events
+// Events are part of the DOM ( Document Object Model )
+
