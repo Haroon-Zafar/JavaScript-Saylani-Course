@@ -675,4 +675,4 @@ do {
     console.log(i);
     i++;
 }
-while (i > 3); 
+while (i < 3); 
