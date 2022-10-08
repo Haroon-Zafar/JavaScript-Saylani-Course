@@ -685,3 +685,7 @@ function add(parametr1, parameter2){
 // 2. User Defined Events
 // Events are part of the DOM ( Document Object Model )
 
+function test(val){
+    console.log(val);
+     
+}
