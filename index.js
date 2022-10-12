@@ -627,3 +627,6 @@ function test(val) {
 
 // onFocus and onBlur
 // There are many textfields and you are writing in just one TextField so when you click on it, only it will be focused ( blue boundry appear or so and so ) and onBlur is opposite of that.    
+
+
+// How to read the value of a textfield in js from html file. 

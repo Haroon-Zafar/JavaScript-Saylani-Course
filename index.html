@@ -7,8 +7,10 @@
     <title>Document</title>
   </head>
   <body>
-    <!-- Always use a function for these events. It is a bad practice to write javascript code in html file. Just make a function and call it on event. -->
-    <a href="#" onmouseover="console.log('Hi');">Click to make Event happen</a>
+    <form onsubmit="checkAddress('email');">
+      <input type="text" name="username" />
+      <input type="password" name="password" />
+    </form>
     <script src="./index.js"></script>
   </body>
 </html>
