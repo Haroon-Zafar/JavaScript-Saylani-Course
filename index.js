@@ -641,5 +641,9 @@ function test(val) {
 
 
 function checkVal(){
-    console.log("Button is Successfully working");
+    // in order to read the value of a textfield we have to use .document.getElementById().value
+    
+    var textInput = document.getElementById("text1");
+    // why have we added .value beacuse it will return the value of the textfield. Otherwise the whole html line will be printed in the console.
+    console.log(textInput.value);   
 }
