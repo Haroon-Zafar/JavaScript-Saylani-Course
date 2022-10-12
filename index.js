@@ -633,8 +633,13 @@ function test(val) {
 // now creating a function which will read the value of the textfield and print it in the console.
 // there is a property in js DOM, it takes all the information about a specific field
 
-function checkAddress(fieldId){
-    if(document.getElementById(fieldId).value === ""){
-        alert("Please fill the address");
-    }
+// function checkAddress(fieldId){
+//     if(document.getElementById(fieldId).value === ""){
+//         alert("Please fill the address");
+//     }
+// }
+
+
+function checkVal(){
+    console.log("Button is Successfully working");
 }
