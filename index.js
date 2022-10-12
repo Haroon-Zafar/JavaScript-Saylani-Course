@@ -631,9 +631,10 @@ function test(val) {
 
 // How to read the value of a textfield in js from html file. 
 // now creating a function which will read the value of the textfield and print it in the console.
+// there is a property in js DOM, it takes all the information about a specific field
 
 function checkAddress(fieldId){
-    if(document.getElementById(fieldIt).value == ""){
+    if(document.getElementById(fieldId).value === ""){
         alert("Please fill the address");
     }
 }
