@@ -1,24 +1,22 @@
-// This is my first js code 
+// This is my first js code
 // alert("Hello World");
 // alert("Hello User");
 
-
 // THERE ARE 3 DATA TYPES
 
-//  STRING 
+//  STRING
 
 //  "abcd!1231!^@%&$*!@#" ANY TYPE OF TEXT CAN BE WRITTEN IN STRING DATA TYPE
 
-// NUMBER 
+// NUMBER
 
 //  5 123 1.012 -2 -123.123
 
+//  BOOLEAN
 
-//  BOOLEAN 
+// TRUE FALSE
 
-// TRUE FALSE 
-
-//  Variable : I want to save this variable in JavaScript 
+//  Variable : I want to save this variable in JavaScript
 
 // var greeting = "Hello World" ;
 
@@ -28,40 +26,33 @@
 
 // alert(num);
 
-// var nationality; 
+// var nationality;
 
 // nationality = "Pakistani";
 
-
 // var booleanVariable = false;
 
-
-
-
-// Another Way of Declaring Variable : 
+// Another Way of Declaring Variable :
 // Declaring the name of the variable first then after that declaring the value.
 
-// 
+//
 // alert(nationality, booleanVariable);
 
+//  LEGAL AND ILLEGAL VARIABLE NAMES
 
-
-//  LEGAL AND ILLEGAL VARIABLE NAMES 
-
-// var hello world = abc; 
+// var hello world = abc;
 
 // USE UNDERSCORES
 
 // var hello_world = "abc";
 
-//  CAMEL CASE 
+//  CAMEL CASE
 
 // var helloWorld = "abc";
 
-// var where is my bag ==== > var whereIsMyBag 
+// var where is my bag ==== > var whereIsMyBag
 
 // var myName = "Haroon";
-
 
 // var num = 5;
 
@@ -71,17 +62,12 @@
 
 // alert(num + num2);
 
-// % Remainder Operator 
+// % Remainder Operator
 // alert(5 % 6);
 
+//  CLASS # 02
 
-
-
-
-//  CLASS # 02 
-
-
-// var num = 5; 
+// var num = 5;
 
 // alert(num++);
 // >> 5
@@ -91,25 +77,23 @@
 
 // var num = 5;
 
-// ++num ; 
+// ++num ;
 
 // alert(num --);
 // // 6
 
 // alert(num);
 
-
 // var num = 5;
 
-// ++ num ; // 6 
+// ++ num ; // 6
 
 // var num2 = num -- ; // num2 = 6
 
 // alert(++num + num2); // 12
 
-
 // String Concatenation
-// Using + plus sign to join two texts 
+// Using + plus sign to join two texts
 
 // var num = 5;
 
@@ -119,10 +103,8 @@
 
 // console.log( text2 + num + text );
 
-
-
-//  PROMPTS : 
-// Used to take inputs from User 
+//  PROMPTS :
+// Used to take inputs from User
 
 // Taking Input from User in a field having hint What is your Name ? and store it in name variable.
 
@@ -132,9 +114,8 @@
 
 // Console.log will print the value which is stored in name variable.
 
-// Here it is concatenated because variable is taken as Text/String 
+// Here it is concatenated because variable is taken as Text/String
 // console.log(favoriteNumber + 5);
-
 
 // How to Convert String into Num
 
@@ -146,13 +127,10 @@
 // // if you give Text inside Input Field now, it will return Not a Number (NaN)
 // console.log(favoriteNumber + 5);
 
-
-
-// Comparision Operators 
+// Comparision Operators
 
 // var num = 5;
 // var num2 = 6;
-
 
 // Always Use tripple equals to sign
 
@@ -160,7 +138,7 @@
 
 // Difference Between tripple and double Equals to.
 
-//  "5" == 5  >> true 
+//  "5" == 5  >> true
 //  "5" === 5 >> false
 
 //  String to Num using +prompt
@@ -168,9 +146,7 @@
 
 // console.log(num + 5)
 
-
-//  IF THEN ELSE STATEMENTS 
-
+//  IF THEN ELSE STATEMENTS
 
 // var num = +prompt("What is your fav Number ? ", 5);
 
@@ -187,9 +163,9 @@
 //     console.log("Divisible by only 5.")
 // }
 
-//  AND OPERATOR && 
+//  AND OPERATOR &&
 // console.log(true && false);
-// // false 
+// // false
 
 // console.log(true && true);
 // // true
@@ -200,20 +176,19 @@
 // 0 means the condition is not fulfilled or false
 // "" empty string also doesn't fulfill IF condition.
 // undefined
-// null 
+// null
 //  are all considered false
 
 // if(null){console.
-    // log(true);}
+// log(true);}
 
 // console.log("undefined" && undefined);
 
-// OR || OPERATOR : 
+// OR || OPERATOR :
 
 // console.log((null && undefined) );
 
-
-// // Calculating Percentage: 
+// // Calculating Percentage:
 
 // var num = +prompt("Type your percentage : ")
 // var grade;
@@ -235,13 +210,12 @@
 //     else{
 //         grade = "F";
 //     }
-    
+
 //     }
 
 // console.log(grade);
 
-
-//  ARRAYS !!! 
+//  ARRAYS !!!
 
 // var months = ["January", "February", ];
 
@@ -251,17 +225,16 @@
 var months = ["January", "February", "April", 4];
 
 // Adding at a specific Index
-// months[2] = "March"; 
+// months[2] = "March";
 
 // This method is not effective when there are so many elements, we have to keep the track of the last index. If we don't have the last index we can't add the element at the desired index.
 
-
-// Method 2 
+// Method 2
 
 // months.push("March");
 
 // console.log(months);
-// but now output will be without commas when indexing 
+// but now output will be without commas when indexing
 
 // deletes the element from the very last index.
 // months.pop();
@@ -271,7 +244,7 @@ var months = ["January", "February", "April", 4];
 
 // I want a specific part to be removed from array and previous and  next data item remains same.
 // I'll do splicing
-//  can append elements too. 
+//  can append elements too.
 
 // months.splice(2, 1, "March", "Haroon");
 
@@ -280,48 +253,41 @@ var months = ["January", "February", "April", 4];
 // months = months.slice(0,1);
 // console.log(months);
 
-
-
 // LOOPS
 
-// 1. for 
+// 1. for
 // 2. while
-// 3. do-while 
+// 3. do-while
 
-// FOR LOOP  : 
-
+// FOR LOOP  :
 
 // for( var i = 1 ; i <= 10 ; i++ ){
-    
-//     // code of For loop here 
-//     console.log("2 X " + i + " = " + i*2);
 
+//     // code of For loop here
+//     console.log("2 X " + i + " = " + i*2);
 
 // }
 
-
-//  Finding an element from an array 
+//  Finding an element from an array
 // Iteration throughout the array.
 // var cities = ["Karachi", "Islamabad", "Lahore", "Peshawar"];
 
 // var city = prompt("Write your city name ? ");
 
-// var found = false ; 
+// var found = false ;
 
 // for ( var i = 0 ; i <= cities.length ; i ++ ){
 
-//     if ( city.toLowerCase() === cities[i].toLowerCase()) {    
+//     if ( city.toLowerCase() === cities[i].toLowerCase()) {
 //         console.log("Found " + city);
-//         // Use `break` so that loop will not iterate through again and again once it finds the target. 
+//         // Use `break` so that loop will not iterate through again and again once it finds the target.
 //         found = true;
 //         break;
-//     } 
+//     }
 // }
 // if (!found) {
 //     console.log("Not Found", city);
 // }
-
-
 
 //  Multi Line Comments
 // Printing Patterns
@@ -347,8 +313,6 @@ var months = ["January", "February", "April", 4];
 
 // }
 
-
-
 // var array = [[1, 2, 3], ["a", "b", "c"]];
 
 // for(var i = 0 ; i < array.length; i ++ ){
@@ -358,40 +322,36 @@ var months = ["January", "February", "April", 4];
 //     }
 // }
 
+// String Find, Replace & Numbers Generation, Round Off, Fixed Decimal Value
 
-
-
-// String Find, Replace & Numbers Generation, Round Off, Fixed Decimal Value 
-
-
-// var text; 
+// var text;
 
 // text = "World War II"
 
 // console.log(text);
 
-// // converting into lower-case 
+// // converting into lower-case
 
 // console.log(text.toLowerCase());
 
-// // CONVERTING INTO UPPER-CASE 
+// // CONVERTING INTO UPPER-CASE
 
 // console.log(text.toUpperCase());
 
-// // Length of String. 
+// // Length of String.
 
 // var length = text.length;
 
 // // console.log(length);
 
-// // .slice() method : It makes a copy of the string without changing the actual string. 
+// // .slice() method : It makes a copy of the string without changing the actual string.
 // // .slice() starting index, ending index - 1, )
 
 // var textSlicing = text.slice(0,);
 
 // console.log(textSlicing);
 
-// // SEARCHING AND REPLACING THE BANNED STRING 
+// // SEARCHING AND REPLACING THE BANNED STRING
 // for( var i = 0 ; i < text.length ; i ++ ){
 
 //     if ( text.slice(i, i + 12) === "World War II"){
@@ -402,18 +362,17 @@ var months = ["January", "February", "April", 4];
 
 // console.log(text);
 
-
-//  But JS has a more efficient of doing this. 
+//  But JS has a more efficient of doing this.
 // using .indexOf() method
 
-var text; 
+var text;
 
 // text = "World War II"
 
 // var firstChar = text.indexOf("World War II");
 
 // if (firstChar !== -1){
-    
+
 //     text = text.slice(0, firstChar) + "the Second World War" + text.slice(firstChar + 12);
 // }
 
@@ -424,18 +383,15 @@ var text;
 
 // // Replacing a String with another one with one method.
 
-// // .replace("String you want to replace","String you want to put in place of that replaced one" ) 
+// // .replace("String you want to replace","String you want to put in place of that replaced one" )
 // var replacedText;
 
 // replacedText = text.replace("War", "Peace");
 // console.log(replacedText);
 
-
-
 // ROUNDING OFF NUMBERS :
 
-
-var num = Math.random() ; 
+var num = Math.random();
 
 // console.log(Math.round(5.67));
 
@@ -445,14 +401,13 @@ var num = Math.random() ;
 // console.log(Math.ceil(num));
 
 // .floor() function
-// 5.9 will be converted to 5 
+// 5.9 will be converted to 5
 
 // console.log(Math.floor(num));
 
-// GENERATING RANDOM NUMBERS 
-// always return random integer within 0-10 range.  
-// console.log(Math.floor(Math.random() * 100 )); 
-
+// GENERATING RANDOM NUMBERS
+// always return random integer within 0-10 range.
+// console.log(Math.floor(Math.random() * 100 ));
 
 // // GUESSING A NUMBER GAME
 // var guess = +prompt("Guess the number between 1-10");
@@ -467,18 +422,15 @@ var num = Math.random() ;
 //     alert("Try Again");
 // }
 
-
 // // CONVERTING STRING INTO NUMBER
 
 // var num = 123;
 
 // .toString() method
 
-
 // var numToStr = num.toString();
 
 // console.log(numToStr);
-
 
 // // Fixing the decimal values of a number after a certain point.
 // // .toFixed() returns a string.
@@ -498,20 +450,19 @@ var num = Math.random() ;
 
 // Thu Sep 29 2022 23:30:40 GMT+0500 (Pakistan Standard Time)
 
-// .toString() method 
+// .toString() method
 
 // console.log(date.toString());
 
-
 // // .getDay() method
-// // Starting from Sunday = 0 
+// // Starting from Sunday = 0
 // console.log(date.getDay());
 
 // // .getDate() method
 // // returns the date of the month
 // console.log(date.getDate());
 
- // .getMonth() method
+// .getMonth() method
 // returns the month of the year
 // console.log(date.getMonth());
 
@@ -530,16 +481,14 @@ var num = Math.random() ;
 // .getTime() method
 // returns the time in milliseconds since January 1970
 
-//  Used highly in comparision 
+//  Used highly in comparision
 
 // console.log(date.getTime());
 
 // comparision of two dates
 
-
 // var date1 = new Date("September 30, 2022");
 // var date2 = new Date();
-
 
 // // //  Convert miliseconds into seconds
 
@@ -551,36 +500,34 @@ var num = Math.random() ;
 
 // //  Convert minutes into hours
 
-
 // var timeInHours = (timeInMinutes)/60;
 
 // console.log(timeInHours);
 
 // var date = new Date("September 30, 2026");
 
-// // It means that it will return the day ( Monday, Tuesdat etc ) on Sep 30, 2026 
+// // It means that it will return the day ( Monday, Tuesdat etc ) on Sep 30, 2026
 // console.log(date.getDay());
 // console.log(date.getMonth())
 
-// //  Difference between two dates 
+// //  Difference between two dates
 
-// var today = new Date(); 
+// var today = new Date();
 // var doomsday = new Date("June 30, 2035");
 
 // var msToday = today.getTime();
 // var msDoomsDay = doomsday.getTime();
 
-// var msDiff = msDoomsDay - msToday; 
+// var msDiff = msDoomsDay - msToday;
 
-// // 1000 = for seconds, 60 for minutes , 60 for hours, 24 for days, to get days 
+// // 1000 = for seconds, 60 for minutes , 60 for hours, 24 for days, to get days
 // var diff = msDiff/(1000 * 60 * 60 * 24);
 
 // console.log(diff);
 
-// if Time is Important you can specify it as well. 
+// if Time is Important you can specify it as well.
 
 // var d = new Date("July 21, 1993 13:25:00");
-
 
 //  we can set dates as well
 
@@ -594,49 +541,42 @@ var num = Math.random() ;
 
 // THERE IS NO SUCH FUNCTION AS .setDay()
 
-
-
-
-
 // ***********************************    FUNCTIONS    ***********************************
-// Types of Functions : 
+// Types of Functions :
 //  Builtin Functions ( have round brackets in their ends. )
 //  User Defined Functions ( have curly brackets in their ends. )
 // always use function keyword to define a function.
 // function functionName(){
 //     // code
-// } 
+// }
 
-function tellTime(){
-    // tells the time
-    var now = new Date();
-    var theHr = now.getHours();
-    var theMin = now.getMinutes();
-    alert("Current Time : " + theHr + ":" + theMin);
+function tellTime() {
+  // tells the time
+  var now = new Date();
+  var theHr = now.getHours();
+  var theMin = now.getMinutes();
+  alert("Current Time : " + theHr + ":" + theMin);
 }
 
-
-// we have to call this function. otherwise it is a dead piece of code which do nothing until and unless called upon. 
+// we have to call this function. otherwise it is a dead piece of code which do nothing until and unless called upon.
 // var time = tellTime();
 
 // console.log(time);
 
 // tellTime();
 
+function add(parametr1, parameter2) {
+  // var a = 10;
+  // var b = 20;
+  var c = parametr1 + parameter2;
 
-function add(parametr1, parameter2){
-    // var a = 10;
-    // var b = 20;
-    var c = parametr1 + parameter2 ;
-
-    // return tells that the function is done and it will return the value of c to the variable which called this function.
-    return c;
+  // return tells that the function is done and it will return the value of c to the variable which called this function.
+  return c;
 }
 // if given parameters are not equal to the parameters in the function then it will return NaN ( Not a Number )
 // console.log(add(10, 20));
 
 // if some function is not returning anything then it will return undefined.
-
 
 // var abc = 10;
 
@@ -645,13 +585,11 @@ function add(parametr1, parameter2){
 //     console.log(abc);
 // }
 
-// //  what value will be the outcome ? 
+// //  what value will be the outcome ?
 // // it will print 20 because the variable abc is defined inside the function demo() and it is not a global variable. MEANS LOCAL VARIABLE IS PREFFERED OVER GLOBAL VARIABLE.
-// demo();     
+// demo();
 
-
-
-// LOOPS 
+// LOOPS
 
 // // FOR LOOP
 
@@ -667,25 +605,25 @@ function add(parametr1, parameter2){
 //     i++;
 // }
 
-
 // DO WHILE LOOP
-// Important thing about this loop is that it will always run even when condition is false. 
+// Important thing about this loop is that it will always run even when condition is false.
 // var i = 0;
 // do {
 //     console.log(i);
 //     i++;
 // }
-// while (i < 3); 
+// while (i < 3);
 
-
-// EVENTS 
+// EVENTS
 // Events are the actions that are performed by the user on the webpage.
 // Events are of two types :
 // 1. Builtin Events
 // 2. User Defined Events
 // Events are part of the DOM ( Document Object Model )
 
-function test(val){
-    console.log(val);
-     
+function test(val) {
+  console.log(val);
 }
+
+// onFocus and onBlur
+// There are many textfields and you are writing in just one TextField so when you click on it, only it will be focused ( blue boundry appear or so and so ) and onBlur is opposite of that.    
