@@ -647,3 +647,5 @@ function checkVal(){
     // why have we added .value beacuse it will return the value of the textfield. Otherwise the whole html line will be printed in the console.
     console.log(textInput.value);   
 }
+
+// .getElementById() method is used to get the entire information and value of a textfield.
