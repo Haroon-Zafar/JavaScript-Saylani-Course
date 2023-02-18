@@ -670,3 +670,10 @@ function abc(){
 }
 
 // always use let and const instead of var.
+
+
+// Scopes in JS
+// 1. Global Scope
+// 2. Local Scope
+// 3. Block Scope
+
