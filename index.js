@@ -550,13 +550,13 @@ var num = Math.random();
 //     // code
 // }
 
-function tellTime() {
-  // tells the time
-  var now = new Date();
-  var theHr = now.getHours();
-  var theMin = now.getMinutes();
-  alert("Current Time : " + theHr + ":" + theMin);
-}
+// function tellTime() {
+//   // tells the time
+//   var now = new Date();
+//   var theHr = now.getHours();
+//   var theMin = now.getMinutes();
+//   alert("Current Time : " + theHr + ":" + theMin);
+// }
 
 // we have to call this function. otherwise it is a dead piece of code which do nothing until and unless called upon.
 // var time = tellTime();
@@ -565,14 +565,14 @@ function tellTime() {
 
 // tellTime();
 
-function add(parametr1, parameter2) {
-  // var a = 10;
-  // var b = 20;
-  var c = parametr1 + parameter2;
+// function add(parametr1, parameter2) {
+//   // var a = 10;
+//   // var b = 20;
+//   var c = parametr1 + parameter2;
 
   // return tells that the function is done and it will return the value of c to the variable which called this function.
-  return c;
-}
+//   return c;
+// }
 // if given parameters are not equal to the parameters in the function then it will return NaN ( Not a Number )
 // console.log(add(10, 20));
 
@@ -621,9 +621,9 @@ function add(parametr1, parameter2) {
 // 2. User Defined Events
 // Events are part of the DOM ( Document Object Model )
 
-function test(val) {
-  console.log(val);
-}
+// function test(val) {
+//   console.log(val);
+// }
 
 // onFocus and onBlur
 // There are many textfields and you are writing in just one TextField so when you click on it, only it will be focused ( blue boundry appear or so and so ) and onBlur is opposite of that.    
@@ -640,12 +640,33 @@ function test(val) {
 // }
 
 
-function checkVal(){
-    // in order to read the value of a textfield we have to use .document.getElementById().value
+// function checkVal(){
+//     // in order to read the value of a textfield we have to use .document.getElementById().value
     
-    var textInput = document.getElementById("text1");
-    // why have we added .value beacuse it will return the value of the textfield. Otherwise the whole html line will be printed in the console.
-    console.log(textInput.value);   
-}
+//     var textInput = document.getElementById("text1");
+//     // why have we added .value beacuse it will return the value of the textfield. Otherwise the whole html line will be printed in the console.
+//     console.log(textInput.value);   
+// }
 
 // .getElementById() method is used to get the entire information and value of a textfield.
+
+
+
+
+
+
+
+
+
+
+
+
+// ADVANCED JS CLASS # 01 
+
+function abc(){
+  return function(){
+    return "Hello World";
+  }
+}
+
+// always use let and const instead of var.
