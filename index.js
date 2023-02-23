@@ -806,7 +806,7 @@ var num = Math.random();
 // it takes a function as a parameter and it will iterate over the array and will return the value of the function.
 // functions passed as parameter are called as CALLBACK FUNCTIONS.
 
-const evens = [2, 4, 6, 8, 10];
+// const evens = [2, 4, 6, 8, 10];
 
 // function will take a value as a parameter and will return the value of the parameter.
 // const odds = evens.map( function (val){
@@ -866,3 +866,53 @@ const evens = [2, 4, 6, 8, 10];
 // Variadic functions are functions which take a variable number of arguments.
 // unknown and can be adjusted at the time the method is called or executed.
 
+
+// It will put all the parameters in an array and will return the length of the array.
+// function f(x, y, ...a){
+//   return (x + y) * a.length;
+// }
+
+// f(1, 2, "hello", true, 7) === 9; // true
+
+// rest parameter is starting from a
+// a is an array which contains all the parameters passed to the function.
+// here in this case a = ["hello", true, 7]
+
+
+
+// SPREAD OPERATORS
+
+// Spread Operators are the operators which are used to spread the array into individual elements.
+
+// const evens = [2, 4, 6, 8, 10];
+// const evens2 = [12, 14, 16, 18, 20];
+
+// // Merging two arrays
+
+// const arr = [evens, evens2];
+
+// console.log(arr); // [[2, 4, 6, 8, 10], [12, 14, 16, 18, 20]]
+// // It produces a 2-D array 
+// // but we wanted a single 1-D array from 2 - 20
+
+// const evens = [2, 4, 6, 8, 10];
+// const evens2 = [12, 14, 16, 18, 20];
+
+// // Merging two arrays
+// // WITH SPREAD OPEATOR 
+
+// const arr = [...evens, ...evens2 ];
+
+// console.log(arr); // [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
+
+const obj1 = {
+  name : "Haroon",
+}
+
+const obj2 = {
+  email : "mr.haroon@gmail.com",
+}
+
+const user = {...obj1, ...obj2};
+
+console.log(user); // {  "name": "Haroon",  "email": "mr.haroon@gmail.com"}
