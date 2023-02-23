@@ -792,3 +792,21 @@ console.log(a); // Uncaught SyntaxError: Cannot access 'a' before initialization
 // Hoisting doesn't work with let and const now.
 
 
+
+
+
+// Arrow Functions or Lambda Functions
+
+// Arrow functions are the new way of writing functions in JS.
+// Arrow functions are also called as lambda functions in other languages.
+// Lambda functions are the functions which are written in one line.
+
+const evens = [2, 4, 6, 8, 10];
+
+// .map() is a function which is used to iterate over an array.
+// it takes a function as a parameter and it will iterate over the array and will return the value of the function.
+
+// functions passed as parameter are called as CALLBACK FUNCTIONS.
+
+const odds = evens.map( function (){});
+
