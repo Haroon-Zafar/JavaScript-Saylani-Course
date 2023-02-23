@@ -744,6 +744,8 @@ var num = Math.random();
 
 
 // Hoisting in JS
+// Hoisting means that the variables and functions are declared at the top of the code when a file is executed.
+
 
 var a; // Initializition
 // Initialization means the alotment of memory to the variable.
