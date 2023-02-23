@@ -745,6 +745,7 @@ var num = Math.random();
 
 // Hoisting in JS
 // Hoisting means that the variables and functions are declared at the top of the code when a file is executed.
+// Same happens with functions 
 
 
 var a; // Initializition
@@ -755,4 +756,16 @@ a = a + 1; // Assignment
 // Assignment means that we are giving a value to the variable.
 
 
+// Hoisting in functions 
+
+// If a function is called before it is defined then it will not give any error. It will work just fine.
+
+xyz();
+
+
+function xyz(){
+  var abc = "Function is defined After it is called.";
+  console.log(abc);
+
+}
 
