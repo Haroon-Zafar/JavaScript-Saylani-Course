@@ -780,11 +780,11 @@ var num = Math.random();
 
 
 // Using let 
-a = 5;
+// a = 5;
 
-let a;
+// let a;
 
-console.log(a); // Uncaught SyntaxError: Cannot access 'a' before initialization
+// console.log(a); // Uncaught SyntaxError: Cannot access 'a' before initialization
 
 // Why is it so ?
 // Because let is a block scoped variable and var is a function scoped variable. 
@@ -808,6 +808,9 @@ console.log(a); // Uncaught SyntaxError: Cannot access 'a' before initialization
 
 const evens = [2, 4, 6, 8, 10];
 
+// function will take a value as a parameter and will return the value of the parameter.
+const odds = evens.map( function (val){
+  return val+1;
+});
 
-const odds = evens.map( function (){});
-
+console.log(odds); // [2, 4, 6, 8, 10]
