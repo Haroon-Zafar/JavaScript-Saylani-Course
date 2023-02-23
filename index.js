@@ -748,24 +748,47 @@ var num = Math.random();
 // Same happens with functions 
 
 
-var a; // Initializition
+// var a; // Initializition
 // Initialization means the alotment of memory to the variable.
 
 
-a = a + 1; // Assignment
+// a = a + 1; // Assignment
 // Assignment means that we are giving a value to the variable.
 
 
 // Hoisting in functions 
 
 // If a function is called before it is defined then it will not give any error. It will work just fine.
+// It will work fine just because of Hoisting 
+// xyz();
 
-xyz();
+
+// function xyz(){
+//   let abc = "Function is defined After it is called.";
+//   console.log(abc);
+// }
 
 
-function xyz(){
-  var abc = "Function is defined After it is called.";
-  console.log(abc);
+// // var vs let vs const
 
-}
+// // Using var
+// a = 5;
+
+// let a;
+
+// console.log(a); // 5
+
+
+// Using let 
+a = 5;
+
+let a;
+
+console.log(a); // Uncaught SyntaxError: Cannot access 'a' before initialization
+
+// Why is it so ?
+// Because let is a block scoped variable and var is a function scoped variable. 
+
+// Hoisting doesn't work with let and const now.
+
 
