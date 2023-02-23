@@ -713,8 +713,44 @@ var num = Math.random();
 // })();
 
 
-(function (){
-  var abc = "Hello";
-  console.log(abc);
+// // CASE # 01 
 
-})()
+
+// // Here abc variable is LOCAL   
+// (function (){
+//   var abc = "Hello";
+//   console.log(abc);
+
+// })()
+
+
+// // CASE # 02 
+
+// // Here abc variable is GLOBAL
+// // USE of GLOBAL VARIABLE IS RESTRICTED . 
+
+// var abc = "Hello";
+// console.log(abc);
+
+// (function (){
+
+// })()
+
+
+// // If function is residing within curly brackets then it is a LOCAL FUNCTION.
+
+
+
+
+
+// Hoisting in JS
+
+var a; // Initializition
+// Initialization means the alotment of memory to the variable.
+
+
+a = a + 1; // Assignment
+// Assignment means that we are giving a value to the variable.
+
+
+
