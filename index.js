@@ -809,8 +809,27 @@ var num = Math.random();
 const evens = [2, 4, 6, 8, 10];
 
 // function will take a value as a parameter and will return the value of the parameter.
-const odds = evens.map( function (val){
-  return val+1;
-});
+// const odds = evens.map( function (val){
+//   return val-1;
+// });
 
-console.log(odds); // [2, 4, 6, 8, 10]
+// console.log(evens, odds); // [2, 4, 6, 8, 10]
+
+
+// Arrow Function 
+
+// function keyword is omitted
+// parameter () brackets are omitted
+// place a fat arrow => after the parameter
+// any thing before fat arrow is parameter and after that is the return.
+
+// const odds =   evens.map( val =>val-1);
+
+// console.log(evens, odds); // [2, 4, 6, 8, 10]
+// // works fine
+
+// FOR RETURNING AN OBJECT. 
+
+const odds =   evens.map( val =>({odd: val-1, even: val}));
+
+console.log(evens, odds); // [2, 4, 6, 8, 10]
