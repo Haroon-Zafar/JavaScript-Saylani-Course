@@ -663,11 +663,21 @@ var num = Math.random();
 
 // ADVANCED JS CLASS # 01 
 
-function abc(){
-  return function(){
-    return "Hello World";
-  }
-}
+// function abc(){
+//   return function(){
+//     return "Hello World";
+//   }
+// }
+// // Calling the function abc()
+// console.log(abc()()); // Hello World
+
+
+// console.log(abc()); // it prints entire function. 
+// ƒ (){
+//   return "Hello World";
+// }
+
+
 
 // always use let and const instead of var.
 
@@ -677,3 +687,34 @@ function abc(){
 // 2. Local Scope
 // 3. Block Scope
 
+
+// Now local variables become everything inside the curly bracketts.
+// it includes the functions, if else, for loops as well.
+
+
+// IIFE means Immediately Invoked Function Expressions
+
+// Function is kept within a round bracket and after the name of the function we have to add round brackets to call the function.
+// this will cause the function to be called immediately after it is defined.
+// It is called immediately not after it is defined but after it is defined and it is kept inside the round brackets.
+// Why is it needed ? 
+
+// (function (){
+//   var foo = function (){
+//     return 1;
+//   }
+//   foo() === 1;
+//   ( function (){
+//     var foo = function (){
+//       return 2;
+//     }
+//     foo() === 2;
+//   })
+// })();
+
+
+(function (){
+  var abc = "Hello";
+  console.log(abc);
+
+})()
