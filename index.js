@@ -830,6 +830,39 @@ const evens = [2, 4, 6, 8, 10];
 
 // FOR RETURNING AN OBJECT. 
 
-const odds =   evens.map( val =>({odd: val-1, even: val}));
+// const odds =   evens.map( val =>({odd: val-1, even: val}));
 
-console.log(evens, odds); // [2, 4, 6, 8, 10]
+// console.log(evens, odds); // [2, 4, 6, 8, 10]
+
+
+// For Multiple Parameters
+
+// const odds =   evens.map( (val, index) =>val+index);
+// // index is the second parameter of the function.
+// // index = [0, 1, 2, 3, 4]
+// console.log(evens, odds); // [2, 4, 6, 8, 10] [2, 5, 8, 11, 14]
+
+
+
+
+
+// // DEFAULT PARAMETERS 
+
+// // They are the parameters which are passed to the function if no parameter is passed to the function.
+
+// function f(x, y = 7, z = 42){
+//   return x + y + z;
+// }
+
+// console.log(f(1)) ; // 1 + 7 + 42 = 50
+
+
+
+
+// REST PARAMETERS
+
+// Rest parameters are the parameters which are passed to the function in the form of an array.
+// The rest parameter syntax allows a function to accept an indefinite number of arguments as an array, providing a way to represent variadic functions in JavaScript.
+// Variadic functions are functions which take a variable number of arguments.
+// unknown and can be adjusted at the time the method is called or executed.
+
